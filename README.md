@@ -7,6 +7,13 @@ A home for community-contributed and experimental CellProfiler modules.
 ## Beginner-level instructions
 Please see help here: https://github.com/CellProfiler/CellProfiler/blob/master/cellprofiler/data/help/other_plugins.rst
 
+## system requirements
+for windows
+
+If you want to use deep learning module ClassifyPixels-UNet make sure you have [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) installed,
+otherwise required python 2 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
+
+
 ## Use
 1. Clone the CellProfiler-plugins from this repository by command:
     ```
@@ -21,7 +28,7 @@ Please see help here: https://github.com/CellProfiler/CellProfiler/blob/master/c
 	pip install -r requirements.txt
 	```
 
-    To install CellProfiler-plugins on a windows machine with support for the `deep learning` module ClassifyPixels-UNet make sure you have [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) installed first then use
+    To install CellProfiler-plugins on a windows machine with support for the deep learning module ClassifyPixels-UNet make sure you have [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) installed first then use
     ```
     cd CellProfiler-plugins
     pip install -r requirements-windows.txt
