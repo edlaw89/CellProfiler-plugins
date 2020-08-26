@@ -136,6 +136,7 @@ Select the project type which matches the project file specified by
         fout = tempfile.NamedTemporaryFile(suffix=".h5", delete=False)
 
         cmd = [
+            "LAZYFLOW_THREADS=4"
             self.executable.value,
             "--headless",
             "--project", self.project_file.value,
